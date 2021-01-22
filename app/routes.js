@@ -116,3 +116,12 @@ app.get("/get_notes", (req,res) => {
     ]);
 })
 }
+
+// create table user(
+//     userId int AUTO_INCREMENT primary key,
+//     name varchar(20),
+//     lastName varchar(20),
+//     email varchar(20),
+//     mobile_number int(10),
+//     password varchar(20)
+//     );
