@@ -1,0 +1,66 @@
+
+
+    1--------------->
+
+                User Login page
+
+                    -----------------------------
+                    Username
+                    -----------------------------
+                    Password
+                    -----------------------------
+                    LOGIN       |       Sign Up
+                    -----------------------------
+
+
+    2--------------->  Login
+                Welcome Username
+
+                List                -- Read
+                    . Notes-1       Update/Delete
+                    . Notes-2
+                    . Notes-3
+                    . Notes-4
+
+                Create new Note     -- Create
+
+    3--------------->   Sign Up
+
+                -----------------------------
+                Username    -- sbhagana
+                -----------------------------
+                Name        -- Shivom
+                -----------------------------
+                Last Name   -- Kumar
+                -----------------------------
+                Email   -- sbhagana@gmail.com
+                -----------------------------
+                mobile number   -- Kumar
+                -----------------------------
+                Password   -- 12345
+                -----------------------------
+                Confirm Password   -- 12345
+                -----------------------------
+                Submit
+
+
+
+User Tabe
+    userID
+    Username
+    Name
+    LastName
+    Email
+    mobile number
+    Password
+
+Notes
+    notesId
+    userID
+    notes_desc
+    date
+    modified    true/false  --  edited
+    enabled     true/false  --  deleted/not
+
+    notesId | userID | notes_desc | date    | modified | enabled
+    123     | user1  |  hello     | 19/1/21 | false    | false

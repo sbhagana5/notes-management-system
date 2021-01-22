@@ -1,0 +1,95 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(/public/images/books.jpg);
+    background-size: cover;
+}
+#lms{
+    text-align: center;
+    margin-top:30px;
+    font-weight: bolder;
+    color: #96bb7c; 
+    font-size:45px;;   
+    text-decoration: underline;
+}
+.box{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    padding: 40px;
+    background: rgba(0,0,0,0.5);
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.box h2{
+    color: #fff;
+    margin: 0 0 30px;
+    padding: 0;
+    text-align: center;
+
+}
+.box .inputbox{
+    position: relative;
+}
+.box .inputbox input{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border:none;
+    border-bottom:1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.box .inputbox label{
+    position: absolute;
+    left:0;
+    top:0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.box .inputbox input:focus ~ label,
+.box .inputbox input:valid ~ label
+{
+top:-18px;
+left:0;
+color: #d6efc7;
+font-size: 12px;
+}
+.box input[type="submit"]{
+background: transparent;
+border: none;
+outline: none;
+color: #fff;
+background:#96bb7c ;
+padding: 10px 20px;
+cursor: pointer;
+border-radius: 5px;
+margin-right: 20px;
+margin-left: 30px;
+} 
+#sign_up{
+    text-decoration: none;
+    background: transparent;
+border: none;
+outline: none;
+color: #fff;
+background:#96bb7c ;
+padding: 10px 20px;
+cursor: pointer;
+border-radius: 5px;
+    margin-left: 60px;
+}
+
+
+
+
